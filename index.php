@@ -46,6 +46,8 @@ if(isset($_POST['submit']))
    <div class="row">
     <div class="col col-md-6 first-col">
      <h1>Lonely shouldn’t come with Age </h1>
+     <p>AgedPrompt is an app that tackles lonliness in old people by calling and chatting with 
+     them regulary as well as reminding them to take their medications. It does this through an AI bot. </p>
      <p>Register for self or register for a loved one</p>
      <p>Track and set reminders for medications</p>
      <p>Chat away worries and loniless our with resident bots
