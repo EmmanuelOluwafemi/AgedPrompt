@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#info-section h1{
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 87px;
+    color: #000000;
+    
+}
+
+#info-section p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#info-section .support-team{
+    color: #000000;
+    font-weight: 900; 
+}
+#info-section input[type="email"]{
+   width: 300px;
+    height: 40px;
+    padding: 10px;
+    color: #4F4F4F;
+    border-left: 6px solid #19303E;
+    margin-bottom: 10px;
+   
+}
+
+#info-section input[type="submit"]{
+    background: #19303E;
+    color: #ffffff;
+    font-size: 1.125rem;
+    padding: 10px;
+    width: 6rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+}
