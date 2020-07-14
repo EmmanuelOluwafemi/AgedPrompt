@@ -4,7 +4,7 @@ if(isset($_POST['submit']))
 {
   //mysql://b8d3761368cf86:1d475ec7@us-cdbr-east-02.cleardb.com/heroku_60bc55f710a4bfe?reconnect=true
     $email=$_POST['email'];
-    $conn=new mysqli("localhost", "root", "", "mydata");
+    $conn=new mysqli("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "t2wc6mxrlt6h0xre", "qrhxev93hbev7fos", "c6vxicjb30x1k62c");
     $cmd="INSERT into emails value('$email');";
     if(mysqli_query($conn, $cmd))
     {
