@@ -2,6 +2,7 @@
 $email ="";
 if(isset($_POST['submit']))
 {
+  //mysql://b8d3761368cf86:1d475ec7@us-cdbr-east-02.cleardb.com/heroku_60bc55f710a4bfe?reconnect=true
     $email=$_POST['email'];
     $conn=new mysqli("localhost", "root", "", "mydata");
     $cmd="INSERT into emails value('$email');";
@@ -38,12 +39,12 @@ if(isset($_POST['submit']))
 
   <!-- As a link -->
 <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#"><img src="group_11.png" alt="aged-prompt logo"/></a>
 </nav>
 <section id="info-section">
   <div class="container">
    <div class="row">
-    <div class="col col-md-8 first-col">
+    <div class="col col-md-6 first-col">
      <h1>Lonely shouldn’t come with Age </h1>
      <p>Register for self or register for a loved one</p>
      <p>Track and set reminders for medications</p>
@@ -57,12 +58,13 @@ if(isset($_POST['submit']))
      <input type="submit" name="submit" value="Subscribe">
       </form>
     </div>
-  </div>
-
-  <div class="col cl-md-4">
   
 
-  </div>
+    <div class="col col-md-6 second-col">
+      <img src="group_10.png" alt="old couple">
+    </div>
+
+    </div>
   </div>
 
   </section>
