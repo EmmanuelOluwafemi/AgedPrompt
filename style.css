@@ -139,6 +139,7 @@ button .fas {
 #contact-section {
     margin-top: 25px;
     padding: 50px 0;
+    background: #DEF7FE;  
 }
 
 #contact-section .second-col{
@@ -168,7 +169,7 @@ button .fas{
 }
 
 #checkup-section .first-col{
-    padding-top: 45px;
+    padding-top: 50%;
 }
 
 #checkup-section .first-col h2 {
