@@ -260,10 +260,17 @@ button .fas{
 /*media query*/
 
 @media screen and  (max-width: 990px){
+    #info-section{
+        padding: 10px;
+    }
    
     #info-section .second-col img {
-        width: 450px;
+        max-width: 400px;
         height: auto;
+    }
+    #info-section input[type="submit"]{
+        width: 404px;
+        
     }
     
 }
