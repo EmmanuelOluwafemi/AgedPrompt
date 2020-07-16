@@ -69,22 +69,23 @@ if(isset($_POST['submit']))
   </div>
 
   </section>
-
+  
+  <!--card section-->
   <section id="card-section">
   <div class="container">
     <div class="row">
+
     <div class="col col-md-4">
       <div class="card" style="width: 18rem;">
         <div class="card-body">
            <img src="" alt="download app from playstore image">
           <p class="card-text text-center">Download App from either Google PlayStore or iOS App Store</p>
         </div>
-      </div>
-      </div>
+       </div>
+    </div>
 
     <div class="col col-md-4">
       <div class="card" style="width: 18rem;">
-
         <div class="card-body">
            <img src="" alt="family member image">
           <p class="card-text text-center">Sign up as an elder or get a family member to sign up</p>
@@ -93,12 +94,14 @@ if(isset($_POST['submit']))
     </div>
 
     <div class="col col-md-4">
+     <div class="card" style="width: 18rem;">
       <div class="card-body">
            <img src="" alt="support team image">
           <p class="card-text text-center">Get frequent messages and reminders from Patrick & Agatha </p>
         </div>
       </div>
     </div>
+    
   </div>
  </div>
   </section>
@@ -178,7 +181,7 @@ if(isset($_POST['submit']))
 <!--coming out soon section-->
  <section>
     <div class="container">
-      <h2>AgedPrompt will be coming to devices soon</h2>
+      <h2 class="text-center">AgedPrompt will be coming to devices soon</h2>
       <div class="row">
         <div class="col col-md-4">
         </div>
