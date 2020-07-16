@@ -207,17 +207,19 @@ button .fas{
     font-size: 1.125rem;
 }
 
-#coming-out-section .blue-container{
+#coming-out-section .container{
     position: relative;
 }
 
-#coming-out-section .blue-container img{
+#coming-out-section .container img{
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-
+#coming-out-section .blue-container p{
+    color: #ffffff;
+}
 
 #coming-out-section input[type="email"]{
     width: 404px;
@@ -234,7 +236,7 @@ button .fas{
     color: #ffffff;
     font-size: 1.125rem;
     padding: 10px;
-    width: 5rem;
+    width: 5.5rem;
     height: 4.125rem;
     outline: none;
     border: none;
