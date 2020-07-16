@@ -2,7 +2,7 @@
 $email ="";
 if(isset($_POST['submit']))
 {
-  //mysql://b8d3761368cf86:1d475ec7@us-cdbr-east-02.cleardb.com/heroku_60bc55f710a4bfe?reconnect=true
+  
     $email=$_POST['email'];
     $conn=new mysqli("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "t2wc6mxrlt6h0xre", "qrhxev93hbev7fos", "c6vxicjb30x1k62c");
     $cmd="INSERT into emails value('$email');";
@@ -45,13 +45,14 @@ if(isset($_POST['submit']))
 <section id="info-section">
   <div class="container">
    <div class="row">
-    <div class="col-md-6 first-col">
-     <h1>Lonely shouldn’t come with Age </h1>
-     <p>AgedPrompt is an app that tackles lonliness in old people by calling and chatting with 
-     them regulary as well as reminding them to take their medications. It does this through an AI bot. </p>
-     <p>Register for self or register for a loved one</p>
-     <p>Track and set reminders for medications</p>
-     <p>Chat away worries and loniless our with resident bots
+
+    <div class="col-md-6">
+      <h1>Lonely shouldn’t come with Age </h1>
+        <p>AgedPrompt is an app that tackles lonliness in old people by calling and chatting with 
+        them regulary as well as reminding them to take their medications. It does this through an AI bot. </p>
+        <p>Register for self or register for a loved one</p>
+        <p>Track and set reminders for medications</p>
+        <p>Chat away worries and loniless our with resident bots
        <span class="support-team">Agatha and Patrick</span>  </p>
 
         <form method="POST">
@@ -60,10 +61,9 @@ if(isset($_POST['submit']))
        </form>
     </div>
   
-
-    <div class="col-md-6 second-col">
-      <img src="images/group_10.png" alt="old couple">
-    </div>
+      <div class="col-md-6 second-col">
+        <img src="images/group_10.png" alt="old couple">
+      </div>
 
     </div>
   </div>

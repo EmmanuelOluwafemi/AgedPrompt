@@ -58,14 +58,10 @@ body {
     margin: 0;
 }
 
-/* #info-section .second-col img{
-    width: 450px;
-    height: auto;
-} */
 
 /*card section css*/
 #card-section {
-    margin-top: 20px;
+    margin-top: 120px;
 }
 
 #card-section .card {
