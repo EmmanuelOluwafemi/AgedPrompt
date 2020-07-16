@@ -39,7 +39,7 @@ if(isset($_POST['submit']))
 
   <!-- As a link -->
 <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="group_11.png" alt="aged-prompt logo"/></a>
+  <a class="navbar-brand" href="#"><img src="images/group_11.png" alt="aged-prompt logo"/></a>
 </nav>
 <section id="info-section">
   <div class="container">
@@ -54,22 +54,148 @@ if(isset($_POST['submit']))
        <span class="support-team">Agatha and Patrick</span>  </p>
 
         <form method="POST">
-     <input type="email" name="email" placeholder="Email">
-     <br>
-     
-     <input type="submit" name="submit" value="Subscribe">
-      </form>
+          <input type="email" name="email" placeholder="Email">
+
+          <input type="submit" name="submit" value="Subscribe">
+       </form>
     </div>
   
 
     <div class="col col-md-6 second-col">
-      <img src="group_10.png" alt="old couple">
+      <img src="images/group_10.png" alt="old couple">
     </div>
 
     </div>
   </div>
 
   </section>
+
+  <section id="card-section">
+  <div class="container">
+    <div class="row">
+    <div class="col col-md-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+           <img src="" alt="download app from playstore image">
+          <p class="card-text text-center">Download App from either Google PlayStore or iOS App Store</p>
+        </div>
+      </div>
+      </div>
+
+    <div class="col col-md-4">
+      <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+           <img src="" alt="family member image">
+          <p class="card-text text-center">Sign up as an elder or get a family member to sign up</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-md-4">
+      <div class="card-body">
+           <img src="" alt="support team image">
+          <p class="card-text text-center">Get frequent messages and reminders from Patrick & Agatha </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+  </section>
+
+  <!--signup section-->
+  <section id="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-6">
+          <img src="images/oldman.png" alt="old man picture">
+        </div>
+
+        <div class="col col-md-6">
+          <h2>Register for self or register for the elderly.</h2>
+          <p>Registration on the AgedPrompt comes in two ways, registering for the an elderly one or registering for self. This enables effective set up espiecially for those that arent technologically oriented.</p>
+         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--mediaction section-->
+<section id="medication-section">
+    <div class="container">
+      <div class="row">
+
+      <div class="col col-md-6">
+          <h2>Track medications and exercise routines with Agatha.</h2>
+          <p>Our AI consultant Agatha tracks, monitor and reminds the elder of the certain medications and exercise routines to aid in improving physical health.</p>
+         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
+        </div>
+
+        <div class="col col-md-6">
+          <img src="images/oldwoman.png" alt="old man picture">
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!--contact loved ones section-->
+<section id="contact-section">
+    <div class="container">
+      <div class="row">
+      <div class="col col-md-6">
+          <img src="images/oldman.png" alt="old man picture">
+        </div>
+
+        <div class="col col-md-6">
+          <h2>Contact registered loved ones with 1 click.</h2>
+          <p>Users can have multiple emergency contacts which can be easily accessed and contacted in a click either by voice call or SMS. Contacts can be notified if medications and exercise routines are not being done regularlyUsers can have multiple emergency contacts which can be easily accessed and contacted in a click either by voice call or SMS. Contacts can be notified if medications and exercise routines are not being done regularly</p>
+         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+
+  <!--mental checkup section-->
+<section id="checkup-section">
+    <div class="container">
+      <div class="row">
+
+      <div class="col col-md-6">
+          <h2>Maintain mental health with  Patrick.</h2>
+          <p>Patrick constantly maintains conversations and through voice and text to help alleviate loneliness enabling mental stability in users.</p>
+         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
+        </div>
+
+        <div class="col col-md-6">
+          <img src="images/oldwoman.png" alt="old man picture">
+        </div> 
+      </div>
+    </div>
+  </section>
+
+<!--coming out soon section-->
+ <section>
+    <div class="container">
+      <h2>AgedPrompt will be coming to devices soon</h2>
+      <div class="row">
+        <div class="col col-md-4">
+        </div>
+        <div class="col col-md-4">
+          <p>Sign up to join the waitlist</p>
+          <form method="POST">
+          <input type="email" name="email" placeholder="Email">
+
+          <input type="submit" name="submit" value="Subscribe">
+       </form>
+        </div>
+        <div class="col col-md-4">
+        <img src="images/couple.png" alt="old couple images">
+        </div>
+      </div>
+    </div>
+ </section>
    
 
  
