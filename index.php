@@ -181,7 +181,7 @@ if(isset($_POST['submit']))
 
 <!--coming out soon section-->
  <section id="coming-out-section">
-    <div class="container d-flex align-items-center">
+    <div class="container d-flex justify-content-center">
       <div>
          <h2 class="text-center"><span>AgedPrompt</span>will be coming to devices soon</h2>
           <p>Sign up to join the waitlist</p>

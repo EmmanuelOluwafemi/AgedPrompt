@@ -217,7 +217,7 @@ button .fas{
     bottom: 0;
 }
 
-#coming-out-section .blue-container p{
+#coming-out-section .container p{
     color: #ffffff;
 }
 
@@ -236,7 +236,7 @@ button .fas{
     color: #ffffff;
     font-size: 1.125rem;
     padding: 10px;
-    width: 5.5rem;
+    width: 6rem;
     height: 4.125rem;
     outline: none;
     border: none;
