@@ -88,8 +88,11 @@ body {
 /*signup section css */
 #signup-section {
     margin-top: 20px;
-    background: #DEF7FE;
-    
+    background: #DEF7FE;  
+}
+
+#signup-section .container {
+    padding: 50px 0;
 }
 
 #signup-section .container{
