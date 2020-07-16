@@ -129,11 +129,6 @@ if(isset($_POST['submit']))
     <div class="container">
       <div class="row">
 
-      <div class="col col-md-6">
-          <h2>Track medications and exercise routines with Agatha.</h2>
-          <p>Our AI consultant Agatha tracks, monitor and reminds the elder of the certain medications and exercise routines to aid in improving physical health.</p>
-         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
-        </div>
 
         <div class="col col-md-6">
           <img src="images/oldwoman.png" alt="old man picture">
