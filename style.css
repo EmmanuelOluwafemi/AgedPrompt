@@ -75,6 +75,12 @@ body {
     background: #DEF7FE;
     margin-right: 5px;
 }
+#card-section .card img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 10px;
+}
 
 #card-section .special-card {
     background: #399BB6 !important;
