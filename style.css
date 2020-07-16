@@ -13,7 +13,7 @@ body {
 /*info section css*/
 
 #info-section {
-    height: 90vh;
+    height: 100vh;
 }
 
 #info-section h1{
@@ -58,10 +58,10 @@ body {
     margin: 0;
 }
 
-#info-section .second-col img{
+/* #info-section .second-col img{
     width: 450px;
     height: auto;
-}
+} */
 
 /*card section css*/
 #card-section {
