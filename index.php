@@ -53,7 +53,7 @@ if(isset($_POST['submit']))
      <p>Chat away worries and loniless our with resident bots
        <span class="support-team">Agatha and Patrick</span>  </p>
 
-        <form method="POST" target="_blank">
+        <form method="POST">
           <input type="email" name="email" placeholder="Email">
           <input type="submit" name="submit" value="Subscribe">
        </form>
