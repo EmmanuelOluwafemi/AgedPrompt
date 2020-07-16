@@ -55,7 +55,6 @@ if(isset($_POST['submit']))
 
         <form method="POST">
           <input type="email" name="email" placeholder="Email">
-
           <input type="submit" name="submit" value="Subscribe">
        </form>
     </div>
@@ -76,7 +75,7 @@ if(isset($_POST['submit']))
     <div class="row">
 
     <div class="col col-md-4">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <div class="card-body">
            <img src="" alt="download app from playstore image">
           <p class="card-text text-center">Download App from either Google PlayStore or iOS App Store</p>
@@ -85,7 +84,7 @@ if(isset($_POST['submit']))
     </div>
 
     <div class="col col-md-4">
-      <div class="card" style="width: 18rem;">
+      <div class="card special-card">
         <div class="card-body">
            <img src="" alt="family member image">
           <p class="card-text text-center">Sign up as an elder or get a family member to sign up</p>
@@ -94,14 +93,14 @@ if(isset($_POST['submit']))
     </div>
 
     <div class="col col-md-4">
-     <div class="card" style="width: 18rem;">
+     <div class="card">
       <div class="card-body">
            <img src="" alt="support team image">
           <p class="card-text text-center">Get frequent messages and reminders from Patrick & Agatha </p>
         </div>
       </div>
     </div>
-    
+
   </div>
  </div>
   </section>
@@ -110,15 +109,16 @@ if(isset($_POST['submit']))
   <section id="signup-section">
     <div class="container">
       <div class="row">
-        <div class="col col-md-6">
+        <div class="col col-sm-6">
           <img src="images/oldman.png" alt="old man picture">
         </div>
 
-        <div class="col col-md-6">
+        <div class="col col-sm-6 second-col">
           <h2>Register for self or register for the elderly.</h2>
           <p>Registration on the AgedPrompt comes in two ways, registering for the an elderly one or registering for self. This enables effective set up espiecially for those that arent technologically oriented.</p>
-         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
+         <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
         </div>
+
       </div>
     </div>
   </section>

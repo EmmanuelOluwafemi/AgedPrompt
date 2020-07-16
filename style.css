@@ -10,6 +10,12 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/*info section css*/
+
+#info-section {
+    height: 80vh;
+}
+
 #info-section h1{
     font-size: 4rem;
     font-style: normal;
@@ -31,29 +37,107 @@ body {
     font-weight: 900; 
 }
 #info-section input[type="email"]{
-   width: 300px;
-    height: 40px;
+    width: 404px;
+    height: 4.125rem;
     padding: 10px;
     color: #4F4F4F;
     border-left: 6px solid #19303E;
-    margin-bottom: 10px;  
+   
 }
 
 #info-section input[type="submit"]{
-    background: #19303E;
+    background: #399BB6;
     color: #ffffff;
     font-size: 1.125rem;
     padding: 10px;
     width: 6rem;
-    height: 2.5rem;
+    height: 4.125rem;
     outline: none;
     border: none;
+    margin: 0;
 }
 
 #info-section .second-col img{
     width: 450px;
     height: auto;
 }
+
+/*card section css*/
+#card-section {
+    margin-top: 20px;
+}
+
+#card-section .card {
+    background: #DEF7FE;
+    border-radius: 30px 30px 0px 30px;
+    width: 22.5rem;
+    background: #DEF7FE;
+}
+
+.card .special-card {
+    background: #399BB6 !important;
+}
+
+.card .card-body p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*signup section css */
+#signup-section {
+    margin-top: 20px;
+    background: #DEF7FE;
+    height: 45vh;
+}
+
+#signup-section .container{
+    padding-bottom: 30px 5px;
+}
+
+#signup-section .second-col {
+    padding-top: 40px;
+}
+
+.second-col h2{
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+#signup-section button {
+    background: #FFFFFF;
+    border-radius: 30px 30px 0px 30px;
+    color: #000000;
+}
+
+button .fas {
+    background: #19303E;
+}
+
+/*medication section css*/
+
+#medication-section {
+    height: 45vh;
+}
+#medication-section .container{
+    padding-top: 30px 5px;
+}
+
+#medication-section h2 {
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+#medication-section button{
+    background: #DEF7FE;
+    border-radius: 30px 30px 0px 30px;
+    color: #000000;
+}
+
+
+
+
+
+/*media query*/
 
 @media (max-width: 990px){
     #info-section .container{
