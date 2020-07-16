@@ -211,7 +211,7 @@ button .fas{
 #coming-out-section .container img{
     position: absolute;
     right: 0;
-    bottom: 0;
+    top: 0;
 }
 
 #coming-out-section .container p{
