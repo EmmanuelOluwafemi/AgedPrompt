@@ -74,7 +74,7 @@ if(isset($_POST['submit']))
   <div class="container">
     <div class="row">
 
-    <div class="col-lg 3 col-md-3  col-sm-12 col-xs-12">
+    <div class="col-md-4">
       <div class="card">
         <div class="card-body">
            <img src="" alt="download app from playstore image">
@@ -83,7 +83,7 @@ if(isset($_POST['submit']))
        </div>
     </div>
 
-    <div class="col-lg 3 col-md-3  col-sm-12 col-xs-12">
+    <div class="col-md-4">
       <div class="card special-card">
         <div class="card-body">
            <img src="" alt="family member image">
@@ -92,7 +92,7 @@ if(isset($_POST['submit']))
       </div>
     </div>
 
-    <div class="col-lg 3 col-md-3  col-sm-12 col-xs-12">
+    <div class="col-md-4">
      <div class="card">
       <div class="card-body">
            <img src="" alt="support team image">
