@@ -79,16 +79,18 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top: 10px;
+    padding: 20px 0;
 }
 
 #card-section .special-card {
     background: #399BB6 !important;
+    color: #ffffff;
 }
 
 .card .card-body p{
     font-size: 1.5rem;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 /*signup section css */
