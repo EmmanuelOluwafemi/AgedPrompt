@@ -13,7 +13,7 @@ body {
 /*info section css*/
 
 #info-section {
-    height: 80vh;
+    height: 90vh;
 }
 
 #info-section h1{
@@ -74,8 +74,9 @@ body {
     background: #DEF7FE;
 }
 
-.card .special-card {
+#card-section .special-card {
     background: #399BB6 !important;
+    width: 22.5rem;
 }
 
 .card .card-body p{
@@ -87,7 +88,7 @@ body {
 #signup-section {
     margin-top: 20px;
     background: #DEF7FE;
-    height: 45vh;
+    
 }
 
 #signup-section .container{
@@ -115,9 +116,7 @@ button .fas {
 
 /*medication section css*/
 
-#medication-section {
-    height: 45vh;
-}
+
 #medication-section .container{
     padding-top: 30px 5px;
 }
