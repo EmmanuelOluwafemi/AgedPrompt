@@ -205,14 +205,12 @@ button .fas{
 
 #coming-out-section .container{
     position: relative;
-    height: 500px;
 }
 
 #coming-out-section .container img{
     position: absolute;
     right: 0;
     top: 0;
-    bottom: 0;
 }
 
 #coming-out-section .container p{
