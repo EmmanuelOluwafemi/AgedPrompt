@@ -42,6 +42,7 @@ body {
     padding: 10px;
     color: #4F4F4F;
     border-left: 6px solid #19303E;
+    margin: 0;
    
 }
 
@@ -166,7 +167,7 @@ button .fas{
     background: #DEF7FE; 
 }
 
-#checkup-section .second-col {
+#checkup-section .first-col{
     padding-top: 45px;
 }
 
@@ -184,6 +185,50 @@ button .fas{
 button .fas{
     color:#19303E;;
 }
+
+/*coming out section*/
+#coming-out-section{
+    margin-top: 25px;
+    padding: 50px 0;
+    background: #19303E;
+}
+#coming-out-section h2 {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+#coming-out-section span{
+    color: #399BB6 !important;
+    font-style: normal;
+    font-weight: 900;
+}
+
+#coming-out-section p {
+    font-size: 1.125rem;
+}
+
+#coming-out-section input[type="email"]{
+    width: 404px;
+    height: 4.125rem;
+    padding: 10px;
+    color: #4F4F4F;
+    border-left: 6px solid #19303E;
+    margin: 0;
+   
+}
+
+#coming-out-section input[type="submit"]{
+    background: #399BB6;
+    color: #ffffff;
+    font-size: 1.125rem;
+    padding: 10px;
+    width: 6rem;
+    height: 4.125rem;
+    outline: none;
+    border: none;
+    margin: 0;
+}
+
+
 
 
 

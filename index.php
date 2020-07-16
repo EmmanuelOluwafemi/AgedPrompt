@@ -179,9 +179,9 @@ if(isset($_POST['submit']))
   </section>
 
 <!--coming out soon section-->
- <section>
+ <section id="coming-out-section">
     <div class="container">
-      <h2 class="text-center">AgedPrompt will be coming to devices soon</h2>
+      <h2 class="text-center"><span>AgedPrompt</span>will be coming to devices soon</h2>
       <div class="row">
         <div class="col-md-4">
         </div>
