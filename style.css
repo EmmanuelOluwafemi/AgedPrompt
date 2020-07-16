@@ -64,7 +64,7 @@ body {
 
 /*card section css*/
 #card-section .container {
-    margin-top: 120px;
+    margin-top: 110px;
 }
 
 #card-section .card {
@@ -73,7 +73,7 @@ body {
     width: 22.5rem;
     height: 17rem;
     background: #DEF7FE;
-    margin-right: 5px;
+    
 }
 #card-section .card img {
     margin-left: auto;
@@ -267,10 +267,34 @@ button .fas{
     #info-section .second-col img {
         max-width: 400px;
         height: auto;
+        margin-top: 5px;
     }
     #info-section input[type="submit"]{
         width: 404px;
         
     }
+
+    #card-section .card{
+        margin-bottom: 10px;
+    }
     
+    #signup-section img{
+        max-width: 400px;
+        height: auto;
+    }
+
+    #medication-section img{
+        max-width: 400px;
+        height: auto;
+    }
+    #contact-section img{
+        max-width: 400px;
+        height: auto;
+    }
+
+    #checkup-section img{
+        max-width: 400px;
+        height: auto;
+    }
+
 }
