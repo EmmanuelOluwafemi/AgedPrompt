@@ -183,8 +183,7 @@ if(isset($_POST['submit']))
     <div class="container">
       <h2 class="text-center"><span>AgedPrompt</span>will be coming to devices soon</h2>
       <div class="row">
-        <div class="col-md-4">
-        </div>
+       
         <div class="col-md-4">
           <p>Sign up to join the waitlist</p>
           <form method="POST">
