@@ -97,7 +97,7 @@ body {
 }
 
 #signup-section .second-col {
-    padding-top: 40px;
+    padding-top: 45px;
 }
 
 .second-col h2{
@@ -112,21 +112,22 @@ body {
 }
 
 button .fas {
-    background: #19303E;
+    color: #19303E;
 }
 
 /*medication section css*/
 
-
-#medication-section .container{
-    padding-top: 30px 5px;
+#medication-section{
+    padding: 50px 0;
 }
 
 #medication-section h2 {
     font-weight: bold;
     font-size: 2.25rem;
 }
-
+#medication-section .first-col{
+    padding-top: 45px;
+}
 #medication-section button{
     background: #DEF7FE;
     border-radius: 30px 30px 0px 30px;
