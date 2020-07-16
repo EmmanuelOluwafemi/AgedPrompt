@@ -90,7 +90,7 @@ body {
 .card .card-body p{
     font-size: 1.5rem;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 /*signup section css */
@@ -216,7 +216,7 @@ button .fas{
 
 #coming-out-section .container{
     position: relative;
-    height: 380px;
+    height: 360px;
 }
 
 #coming-out-section .container img{
