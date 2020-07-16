@@ -261,12 +261,9 @@ button .fas{
 
 @media screen and  (max-width: 990px){
    
-    #coming-out-section input[type="email"]{
-        width: 100%;
-    }
-    
-    #coming-out-section input[type="submit"]{
-        width: 100%;
+    #info-section .second-col img {
+        width: 450px;
+        height: auto;
     }
     
 }
