@@ -16,6 +16,9 @@ body {
     height: 100vh;
 } */
 
+#info-section .first-col{
+    padding-top: 45px;
+}
 #info-section h1{
     font-size: 4rem;
     font-style: normal;

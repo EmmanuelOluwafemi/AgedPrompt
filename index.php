@@ -46,7 +46,7 @@ if(isset($_POST['submit']))
   <div class="container">
    <div class="row">
 
-    <div class="col-md-6">
+    <div class="col-md-6 first-col">
       <h1>Lonely shouldn’t come with Age </h1>
         <p>AgedPrompt is an app that tackles lonliness in old people by calling and chatting with 
         them regulary as well as reminding them to take their medications. It does this through an AI bot. </p>
@@ -78,7 +78,7 @@ if(isset($_POST['submit']))
     <div class="col-md-4">
       <div class="card">
         <div class="card-body">
-           <img src="" alt="download app from playstore image">
+           <img src="images/app-icon.png" alt="download app from playstore image">
           <p class="card-text text-center">Download App from either Google PlayStore or iOS App Store</p>
         </div>
        </div>
@@ -87,7 +87,7 @@ if(isset($_POST['submit']))
     <div class="col-md-4">
       <div class="card special-card">
         <div class="card-body">
-           <img src="" alt="family member image">
+           <img src="images/support-icon.png" alt="family member image">
           <p class="card-text text-center">Sign up as an elder or get a family member to sign up</p>
         </div>
       </div>
@@ -96,7 +96,7 @@ if(isset($_POST['submit']))
     <div class="col-md-4">
      <div class="card">
       <div class="card-body">
-           <img src="" alt="support team image">
+           <img src="images/reminder-icon.png" alt="support team image">
           <p class="card-text text-center">Get frequent messages and reminders from Patrick & Agatha </p>
         </div>
       </div>
@@ -183,7 +183,7 @@ if(isset($_POST['submit']))
  <section id="coming-out-section">
     <div class="container d-flex align-items-center">
       <div>
-         <h2 class="text-center"><span>AgedPrompt</span>will be coming to devices soon</h2>
+         <h2 class="text-center"><span>AgedPrompt</span> will be coming to devices soon</h2>
           <p>Sign up to join the waitlist</p>
           <form method="POST">
           <input type="email" name="email" placeholder="Email">
