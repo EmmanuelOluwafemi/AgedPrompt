@@ -7,6 +7,7 @@ if(isset($_POST['submit']))
     $conn=new mysqli("fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "t2wc6mxrlt6h0xre", "qrhxev93hbev7fos", "c6vxicjb30x1k62c");
     $cmd="INSERT into emails value('$email');";
     if(mysqli_query($conn, $cmd))
+
     {
         echo "Successfully";
     }
@@ -180,22 +181,18 @@ if(isset($_POST['submit']))
 
 <!--coming out soon section-->
  <section id="coming-out-section">
-    <div class="container">
-      <h2 class="text-center"><span>AgedPrompt</span>will be coming to devices soon</h2>
-      <div class="row">
-       
-        <div class="col-md-4">
+    <div class="blue-container d-flex justify-content-center">
+      <div>
+         <h2 class="text-center"><span>AgedPrompt</span>will be coming to devices soon</h2>
           <p>Sign up to join the waitlist</p>
           <form method="POST" target="_blank">
           <input type="email" name="email" placeholder="Email">
 
           <input type="submit" name="submit" value="Subscribe">
        </form>
+
         </div>
-        <div class="col-md-4">
         <img src="images/couple.png" alt="old couple images">
-        </div>
-      </div>
     </div>
  </section>
    

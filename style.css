@@ -207,6 +207,18 @@ button .fas{
     font-size: 1.125rem;
 }
 
+#coming-out-section .blue-container{
+    position: relative;
+}
+
+#coming-out-section .blue-container img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
 #coming-out-section input[type="email"]{
     width: 404px;
     height: 4.125rem;
