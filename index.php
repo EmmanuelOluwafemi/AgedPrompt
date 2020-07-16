@@ -44,7 +44,7 @@ if(isset($_POST['submit']))
 <section id="info-section">
   <div class="container">
    <div class="row">
-    <div class="col col-md-6 first-col">
+    <div class="col-md-6 first-col">
      <h1>Lonely shouldn’t come with Age </h1>
      <p>AgedPrompt is an app that tackles lonliness in old people by calling and chatting with 
      them regulary as well as reminding them to take their medications. It does this through an AI bot. </p>
@@ -60,7 +60,7 @@ if(isset($_POST['submit']))
     </div>
   
 
-    <div class="col col-md-6 second-col">
+    <div class="col-md-6 second-col">
       <img src="images/group_10.png" alt="old couple">
     </div>
 
@@ -109,11 +109,11 @@ if(isset($_POST['submit']))
   <section id="signup-section">
     <div class="container">
       <div class="row">
-        <div class="col col-sm-6">
+        <div class="col-md-6">
           <img src="images/oldman.png" alt="old man picture">
         </div>
 
-        <div class="col col-sm-6 second-col">
+        <div class="col-md-6 second-col">
           <h2>Register for self or register for the elderly.</h2>
           <p>Registration on the AgedPrompt comes in two ways, registering for the an elderly one or registering for self. This enables effective set up espiecially for those that arent technologically oriented.</p>
          <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
@@ -146,14 +146,14 @@ if(isset($_POST['submit']))
 <section id="contact-section">
     <div class="container">
       <div class="row">
-      <div class="col col-md-6">
+        <div class="col-md-6">
           <img src="images/oldman.png" alt="old man picture">
         </div>
 
-        <div class="col col-md-6">
+        <div class="col-md-6 second-col">
           <h2>Contact registered loved ones with 1 click.</h2>
           <p>Users can have multiple emergency contacts which can be easily accessed and contacted in a click either by voice call or SMS. Contacts can be notified if medications and exercise routines are not being done regularlyUsers can have multiple emergency contacts which can be easily accessed and contacted in a click either by voice call or SMS. Contacts can be notified if medications and exercise routines are not being done regularly</p>
-         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
+         <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
         </div>
       
       </div>
@@ -165,13 +165,13 @@ if(isset($_POST['submit']))
     <div class="container">
       <div class="row">
 
-      <div class="col col-md-6">
+      <div class="col-md-6 first-col">
           <h2>Maintain mental health with  Patrick.</h2>
           <p>Patrick constantly maintains conversations and through voice and text to help alleviate loneliness enabling mental stability in users.</p>
-         <button type="button" class="btn btn-dark">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
+         <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
         </div>
 
-        <div class="col col-md-6">
+        <div class="col-md-6">
           <img src="images/oldwoman.png" alt="old man picture">
         </div> 
       </div>
@@ -183,9 +183,9 @@ if(isset($_POST['submit']))
     <div class="container">
       <h2 class="text-center">AgedPrompt will be coming to devices soon</h2>
       <div class="row">
-        <div class="col col-md-4">
+        <div class="col-md-4">
         </div>
-        <div class="col col-md-4">
+        <div class="col-md-4">
           <p>Sign up to join the waitlist</p>
           <form method="POST">
           <input type="email" name="email" placeholder="Email">
@@ -193,7 +193,7 @@ if(isset($_POST['submit']))
           <input type="submit" name="submit" value="Subscribe">
        </form>
         </div>
-        <div class="col col-md-4">
+        <div class="col-md-4">
         <img src="images/couple.png" alt="old couple images">
         </div>
       </div>
