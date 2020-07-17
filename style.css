@@ -276,6 +276,7 @@ button .fas{
 
     #card-section .card{
         margin-bottom: 10px;
+        max-width: 350px;
     }
     
     #signup-section img{
