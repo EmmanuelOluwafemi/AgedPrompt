@@ -9,11 +9,9 @@ if(isset($_POST['submit']))
     if(mysqli_query($conn, $cmd))
 
     {
-        echo "Successfully";
+      
     }
-    else{
-        echo "Email not sent";
-    }
+    
 }
 ?>
 
@@ -31,6 +29,9 @@ if(isset($_POST['submit']))
     <!--custom css-->
     <link rel="stylesheet" href="style.css">
 
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
     <!--font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     
@@ -46,8 +47,8 @@ if(isset($_POST['submit']))
   <div class="container">
    <div class="row">
 
-    <div class="col-md-6 first-col">
-      <h1>Lonely shouldn’t come with Age </h1>
+    <div  class="col-md-6 first-col">
+      <h1">Lonely shouldn’t come with Age </h1>
         <p>AgedPrompt is an app that tackles lonliness in old people by calling and chatting with 
         them regulary as well as reminding them to take their medications. It does this through an AI bot. </p>
         <p>Register for self or register for a loved one</p>
@@ -57,7 +58,7 @@ if(isset($_POST['submit']))
 
         <form method="POST">
           <input type="email" name="email" placeholder="Email">
-          <input type="submit" name="submit" value="Subscribe">
+          <input type="submit" name="submit" value="Subscribe" onclick="myFunction()">
        </form>
     </div>
   
@@ -75,7 +76,7 @@ if(isset($_POST['submit']))
   <div class="container">
     <div class="row">
 
-    <div class="col-md-4">
+    <div data-aos="zoom-in"  class="col-md-4">
       <div class="card">
         <div class="card-body">
            <img src="images/app-icon.png" alt="download app from playstore image">
@@ -84,7 +85,7 @@ if(isset($_POST['submit']))
        </div>
     </div>
 
-    <div class="col-md-4">
+    <div data-aos="zoom-in" class="col-md-4">
       <div class="card special-card">
         <div class="card-body">
            <img src="images/support-icon.png" alt="family member image">
@@ -93,7 +94,7 @@ if(isset($_POST['submit']))
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div data-aos="zoom-in" class="col-md-4">
      <div class="card">
       <div class="card-body">
            <img src="images/reminder-icon.png" alt="support team image">
@@ -110,11 +111,11 @@ if(isset($_POST['submit']))
   <section id="signup-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div data-aos="fade-left" class="col-md-6">
           <img src="images/oldman.png" alt="old man picture">
         </div>
 
-        <div class="col-md-6 second-col">
+        <div data-aos="fade-right" class="col-md-6 second-col">
           <h2>Register for self or register for the elderly.</h2>
           <p>Registration on the AgedPrompt comes in two ways, registering for the an elderly one or registering for self. This enables effective set up espiecially for those that arent technologically oriented.</p>
          <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
@@ -129,13 +130,13 @@ if(isset($_POST['submit']))
 <section id="medication-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 first-col">
+        <div data-aos="fade-left" class="col-md-6 first-col">
           <h2>Track medications and exercise routines with Agatha.</h2>
           <p>Our AI consultant Agatha tracks, monitor and reminds the elder of the certain medications and exercise routines to aid in improving physical health.</p>
           <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
         </div>
 
-        <div class="col-md-6">
+        <div data-aos="fade-right" class="col-md-6">
           <img src="images/oldwoman.png" alt="old man picture">
         </div> 
 
@@ -147,11 +148,11 @@ if(isset($_POST['submit']))
 <section id="contact-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div data-aos="fade-left" class="col-md-6">
           <img src="images/oldman.png" alt="old man picture">
         </div>
 
-        <div class="col-md-6 second-col">
+        <div data-aos="fade-right" class="col-md-6 second-col">
           <h2>Contact registered loved ones with 1 click.</h2>
           <p>Users can have multiple emergency contacts which can be easily accessed and contacted in a click either by voice call or SMS. Contacts can be notified if medications and exercise routines are not being done regularlyUsers can have multiple emergency contacts which can be easily accessed and contacted in a click either by voice call or SMS. Contacts can be notified if medications and exercise routines are not being done regularly</p>
          <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
@@ -166,13 +167,13 @@ if(isset($_POST['submit']))
     <div class="container">
       <div class="row">
 
-      <div class="col-md-6 first-col">
+      <div data-aos="fade-left" class="col-md-6 first-col">
           <h2>Maintain mental health with  Patrick.</h2>
           <p>Patrick constantly maintains conversations and through voice and text to help alleviate loneliness enabling mental stability in users.</p>
          <button type="button" class="btn">Get Started <span><i class="fas fa-arrow-right"></i></span></button>
         </div>
 
-        <div class="col-md-6">
+        <div data-aos="fade-right" class="col-md-6">
           <img src="images/oldwoman.png" alt="old man picture">
         </div> 
       </div>
@@ -188,7 +189,7 @@ if(isset($_POST['submit']))
           <form method="POST">
           <input type="email" name="email" placeholder="Email">
 
-          <input type="submit" name="submit" value="Subscribe">
+          <input type="submit" name="submit" value="Subscribe" onclick="myFunction()">
        </form>
 
         </div>
@@ -211,5 +212,37 @@ if(isset($_POST['submit']))
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+        offset: 400,
+        duration: 1000
+        }
+      );
+    </script>
+    <script>
+        var input = document.getElementById("email");
+        input.addEventListener("click",function(){
+          document.getElementById("error").style.display = "none";
+          document.getElementById("provide").style.display = "none";
+        })
+        function myFunction() {
+          if (input.value === "") {
+            document.getElementById("error").style.display = "block";
+          document.getElementById("provide").style.display = "block";
+          }
+        else{
+          if (!input.checkValidity()) {
+          document.getElementById("error").style.display = "block";
+          document.getElementById("provide").style.display = "block";
+        }
+        else{
+          document.getElementById("error").style.display = "none";
+          document.getElementById("provide").style.display = "none";
+           }
+          }
+        }
+    </script>
   </body>
 </html>
